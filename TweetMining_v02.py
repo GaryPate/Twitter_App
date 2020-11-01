@@ -8,10 +8,10 @@ from http.client import IncompleteRead
 import csv
 
 
-consumer_key = 'c6HzCLGjcO8lUmjpLTs7Ubx1T'
-consumer_secret = 'LNYiyo6YaHN0wqsDfk6mJQXKQXx8dfXgS8EGfFFdil6ZCOeNwd'
-access_token = '759628000044261376-aYi6vdV3nQE9Kcqhj0j1vE9rG6pX61E'
-access_secret = 'EDdsqKmh7MShkCNOQ4ayeH61LoW5O1TT0gPXIccXdYMVk'
+consumer_key = None
+consumer_secret = None
+access_token = None
+access_secret = None
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 
